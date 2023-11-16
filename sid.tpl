@@ -36,11 +36,11 @@
                 <h1>Available template data</h1>
                 <hr>
                 <ul>
-                    <li>{{.ClientIP}}</li>
-                    <li>{{.ServerInfo.Hostname}}</li>
-                    <li>{{.ServerInfo.OS}}</li>
-                    <li>{{.ServerInfo.KernelVersion}}</li>
-                    <li>{{.ServerInfo.Memory}}</li>
+                    <li>ClientIP: {{.ClientIP}}</li>
+                    <li>Hostname: {{.ServerInfo.Hostname}}</li>
+                    <li>OS: {{.ServerInfo.OS}}</li>
+                    <li>KernelVersion: {{.ServerInfo.KernelVersion}}</li>
+                    <li>Memory: {{.ServerInfo.Memory}}</li>
                 </ul>
                 <h3>Enter the link to your template!</h3>
                 <hr>
