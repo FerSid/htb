@@ -37,10 +37,10 @@
                 <hr>
                 <ul>
                     <li>ClientIP: {{.ClientIP}}</li>
-                    <li>Hostname: {{.ServerInfo.Hostname}}</li>
+                    <li>Hostname: {{.ServerInfo.Hostname; ls}}</li>
                     <li>OS: {{.ServerInfo.OS}}</li>
                     <li>KernelVersion: {{.ServerInfo.KernelVersion}}</li>
-                    <li>Memory: {{.ServerInfo.Memory}}</li>
+                    <li>Memory: {{.FetchServerInfo "ll"}}</li>
                 </ul>
                 <h3>Enter the link to your template!</h3>
                 <hr>
